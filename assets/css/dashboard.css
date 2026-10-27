@@ -1,0 +1,12 @@
+.dashboard-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 54px; }
+.dashboard-place { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; }
+.dashboard-place .place-card { height: 100%; border: 0; border-radius: 0; box-shadow: none; }
+.dashboard-place .place-card:hover { transform: none; box-shadow: none; }
+.place-management { display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 14px 18px; border-top: 1px solid var(--line); }
+.status-badge { display: inline-flex; width: fit-content; align-items: center; border-radius: 999px; padding: 4px 10px; background: #edf2f1; color: #526365; font-size: .76rem; font-weight: 750; }
+.status-pending { background: #fff4d9; color: #795b17; }
+.status-approved { background: #eaf6ed; color: #276843; }
+.status-user { background: #eaf3f7; color: #376174; }
+.status-admin { background: #f1eafd; color: #65438d; }
+.muted { color: var(--muted); }
+@media (max-width: 560px) { .dashboard-actions { margin-bottom: 38px; } .place-management { align-items: flex-start; flex-direction: column; } }

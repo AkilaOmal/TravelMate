@@ -1,0 +1,9 @@
+.auth-section { min-height: 68vh; display: grid; place-items: center; padding: 58px 20px; background: var(--cream); }
+.auth-card { width: min(100%, 520px); padding: 38px; border: 1px solid var(--line); border-radius: 18px; background: #fff; box-shadow: var(--shadow); }
+.auth-card h1 { margin-bottom: 10px; font-size: clamp(2rem, 4vw, 2.75rem); }
+.auth-card > p:not(.eyebrow) { color: var(--muted); }
+.auth-card form { margin-top: 24px; }
+.auth-card .field-row { gap: 12px; }
+.auth-footnote { margin: 20px 0 0; text-align: center; font-size: .91rem; }
+.auth-footnote a { font-weight: 750; }
+@media (max-width: 560px) { .auth-section { padding: 36px 14px; } .auth-card { padding: 26px 20px; } }
