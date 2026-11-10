@@ -16,6 +16,24 @@
         </nav>
     </header>
 
-    
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <p class="eyebrow">GO SOMEWHERE NEW</p>
+                <h1>Every journey is better when it's shared.</h1>
+                <p>Discover favorite places from travelers and share the destinations you love.</p>
+                <a class="button" href="register.php">Start sharing</a>
+            </div>
+        </section>
+
+        <section class="intro">
+            <p class="eyebrow">TRAVEL TOGETHER</p>
+            <h2>Find inspiration for your next adventure</h2>
+            <p>Browse places shared by the Travel Mate community, or sign up and add a destination of your own.</p>
+            <a class="text-link" href="explore.php">Explore all places &rarr;</a>
+        </section>
+    </main>
+
+    <footer>Travel Mate &copy; 2026</footer>
 </body>
 </html>
